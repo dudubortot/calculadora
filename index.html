@@ -52,7 +52,7 @@
 </head>
 <body>
     <div class="fundo">
-        <h1>Calculadora em Javascript</h1>
+        <h1>Calculadora usando Javascript</h1>
         <div class="calculadora">
             <h1>Calculadora</h1>
             <p id="resultado"></p>
@@ -118,7 +118,7 @@
             if (resultado) {
                 try {
                     if (resultado.includes('/0')) {
-                        document.getElementById('resultado').innerHTML = "Picanhaaa";
+                        document.getElementById('resultado').innerHTML = "Divisao por zero";
                         setTimeout(clean, 2000);
                         return;
                     }
@@ -164,4 +164,5 @@
         });
     </script>
 </body>
+
 </html>
